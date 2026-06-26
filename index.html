@@ -269,6 +269,14 @@
     padding:4px 9px;
     white-space:nowrap;
   }
+  .grid-status{
+    grid-column:1/-1;
+    text-align:center;
+    font-size:14px;
+    color:rgba(22,17,15,0.55);
+    padding:20px 0;
+  }
+  .grid-status.is-error{color:var(--pink-deep); font-weight:700;}
 
   /* category tint bands */
   #room{background:var(--cream);}
@@ -382,56 +390,8 @@
     <h2>Room Essentials</h2>
     <p>Practical pieces that make your room feel pulled-together — easy to set up, easy to love.</p>
   </div>
-  <div class="grid">
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/rack.jpg" alt="Multipurpose double-rail clothes hanger rack"></div>
-      <h3>Multipurpose Clothes Rack</h3>
-      <p>Sturdy double-rail rack, holds up to 35kg. Instant extra wardrobe space, no drilling needed.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/fanwhite.jpg" alt="White foldable standing desk fan"></div>
-      <h3>Foldable Stand Fan</h3>
-      <p>Height-adjustable desk &amp; floor fan that folds flat. Quiet airflow for any corner of the room.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/mirror.jpg" alt="Oval frameless wall mirror"></div>
-      <h3>Oval Wall Mirror</h3>
-      <p>Sleek frameless oval mirror — the easiest way to upgrade a wall and check your fit before you step out.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/fangreen.jpg" alt="Green handheld rechargeable mini fan"></div>
-      <h3>Handheld Mini Fan</h3>
-      <p>Pocket-size rechargeable fan with a gold trim — for hot days, bus rides &amp; everywhere in between.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
+  <div class="grid" id="room-grid">
+    <p class="grid-status">Loading products…</p>
   </div>
 </section>
 
@@ -442,32 +402,8 @@
     <h2>Content Tools</h2>
     <p>Small gear that makes a big difference in your photos and videos — built for creators on the move.</p>
   </div>
-  <div class="grid">
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/lightpink.jpg" alt="Clip-on mobile phone LED light"></div>
-      <h3>Mobile Phone LED Light</h3>
-      <p>Clip-on light for your phone with soft, even glow — flattering lighting for every shoot.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/videolight.jpg" alt="LED pocket video light with clip mount"></div>
-      <h3>LED Pocket Video Light</h3>
-      <p>Clip-mount video light with adjustable tones — attach to your phone, camera or laptop for instant glow-up lighting.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
+  <div class="grid" id="content-grid">
+    <p class="grid-status">Loading products…</p>
   </div>
 </section>
 
@@ -478,56 +414,8 @@
     <h2>Self-Care &amp; Girly Items</h2>
     <p>The cute little essentials that make getting ready (and treating yourself) so much more fun.</p>
   </div>
-  <div class="grid">
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/bag.jpg" alt="Black monogram tote handbag"></div>
-      <h3>Monogram Tote Bag</h3>
-      <p>Roomy everyday tote with a monogram print and gold charm — fits everything, goes with everything.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/tumbler.jpg" alt="Flower straw tumbler cup"></div>
-      <h3>Flower Straw Tumbler</h3>
-      <p>Clear tumbler with a cute flower charm &amp; built-in straw — your new favourite cup, on or off camera.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/masks.jpg" alt="Pack of facial sheet masks"></div>
-      <h3>Facial Sheet Masks</h3>
-      <p>Collagen, cucumber &amp; vitamin C masks for an easy at-home glow session. Skin reset, sorted.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <span class="pin">★</span>
-      <div class="tape"></div>
-      <div class="photo"><img src="assets/patches.jpg" alt="Star-shaped pimple patches"></div>
-      <h3>Star Pimple Patches</h3>
-      <p>Cute star-shaped hydrocolloid patches that calm breakouts overnight — skincare that's actually adorable.</p>
-      <div class="card-foot">
-        <span class="price">Ask price</span>
-        <a class="btn btn-small btn-primary" href="https://wa.me/c/2348150268705" target="_blank" rel="noopener">Inquire</a>
-      </div>
-    </article>
-
+  <div class="grid" id="selfcare-grid">
+    <p class="grid-status">Loading products…</p>
   </div>
 </section>
 
@@ -568,6 +456,142 @@
   <p class="credit">Designed by <a href="https://tobiloba-julius.vercel.app" target="_blank" rel="noopener">DBL Studio</a></p>
   <p class="copyright">© 2026 Shop With Rayo. All rights reserved.</p>
 </footer>
+<script>
+(function(){
+  // Published Google Sheet, exported as CSV.
+  var SHEET_PUBLISH_BASE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTQwO0Q-zZkk2XgejlRrKDo91lpi3j69b96TRw7LKhBTsVMhjuieTEwo_cJgtZ0_35fXmoaZmtDedKP/pub";
+  var GID = "1770954343";
+  var CSV_URL = SHEET_PUBLISH_BASE + "?gid=" + GID + "&single=true&output=csv&cb=" + Date.now();
 
+  var WHATSAPP_LINK = "https://wa.me/c/2348150268705";
+
+  var CATEGORY_GRID_MAP = {
+    "room essentials": "room-grid",
+    "content tools": "content-grid",
+    "self-care & girly": "selfcare-grid",
+    "self care & girly": "selfcare-grid",
+    "selfcare & girly": "selfcare-grid"
+  };
+
+  function parseCSV(text){
+    // Minimal RFC4180-ish CSV parser: handles quoted fields with commas/newlines.
+    var rows = [];
+    var row = [];
+    var field = "";
+    var inQuotes = false;
+    for (var i = 0; i < text.length; i++){
+      var c = text[i];
+      if (inQuotes){
+        if (c === '"'){
+          if (text[i+1] === '"'){ field += '"'; i++; }
+          else { inQuotes = false; }
+        } else { field += c; }
+      } else {
+        if (c === '"'){ inQuotes = true; }
+        else if (c === ','){ row.push(field); field = ""; }
+        else if (c === '\n'){ row.push(field); rows.push(row); row = []; field = ""; }
+        else if (c === '\r'){ /* skip */ }
+        else { field += c; }
+      }
+    }
+    if (field.length || row.length){ row.push(field); rows.push(row); }
+    return rows.filter(function(r){ return r.some(function(cell){ return cell.trim() !== ""; }); });
+  }
+
+  function rowsToObjects(rows){
+    if (!rows.length) return [];
+    var headers = rows[0].map(function(h){ return h.trim().toLowerCase(); });
+    return rows.slice(1).map(function(r){
+      var obj = {};
+      headers.forEach(function(h, idx){ obj[h] = (r[idx] || "").trim(); });
+      return obj;
+    });
+  }
+
+  function formatPrice(p){
+    if (!p) return "Ask price";
+    var n = Number(p.replace(/[^0-9.]/g, ""));
+    if (!n) return "Ask price";
+    return "₦" + n.toLocaleString("en-NG");
+  }
+
+  function escapeHTML(str){
+    var div = document.createElement("div");
+    div.textContent = str || "";
+    return div.innerHTML;
+  }
+
+  function buildCard(item, index){
+    var name = item["product name"] || "Untitled product";
+    var price = formatPrice(item["price"]);
+    var desc = item["description"] || "";
+    var img = item["image link"] || "";
+    var waText = encodeURIComponent("Hi Rayo! I'm interested in the " + name);
+    var waHref = WHATSAPP_LINK + (WHATSAPP_LINK.indexOf("/c/") > -1 ? "" : ("?text=" + waText));
+
+    var card = document.createElement("article");
+    card.className = "card";
+    card.innerHTML =
+      '<span class="pin">★</span>' +
+      '<div class="tape"></div>' +
+      '<div class="photo">' + (img ? '<img src="' + escapeHTML(img) + '" alt="' + escapeHTML(name) + '" loading="lazy">' : '') + '</div>' +
+      '<h3>' + escapeHTML(name) + '</h3>' +
+      '<p>' + escapeHTML(desc) + '</p>' +
+      '<div class="card-foot">' +
+        '<span class="price">' + escapeHTML(price) + '</span>' +
+        '<a class="btn btn-small btn-primary" href="' + waHref + '" target="_blank" rel="noopener">Inquire</a>' +
+      '</div>';
+    return card;
+  }
+
+  function renderError(message){
+    ["room-grid","content-grid","selfcare-grid"].forEach(function(id){
+      var grid = document.getElementById(id);
+      if (grid) grid.innerHTML = '<p class="grid-status is-error">' + escapeHTML(message) + '</p>';
+    });
+  }
+
+  function render(items){
+    var grids = {
+      "room-grid": document.getElementById("room-grid"),
+      "content-grid": document.getElementById("content-grid"),
+      "selfcare-grid": document.getElementById("selfcare-grid")
+    };
+    Object.keys(grids).forEach(function(id){ if (grids[id]) grids[id].innerHTML = ""; });
+
+    var counts = { "room-grid":0, "content-grid":0, "selfcare-grid":0 };
+
+    items.forEach(function(item, idx){
+      var show = (item["show on site? (yes/no)"] || item["show on site?"] || "yes").toLowerCase();
+      if (show.indexOf("no") === 0) return;
+      var cat = (item["category"] || "").toLowerCase().trim();
+      var gridId = CATEGORY_GRID_MAP[cat];
+      if (!gridId || !grids[gridId]) return;
+      grids[gridId].appendChild(buildCard(item, idx));
+      counts[gridId]++;
+    });
+
+    Object.keys(counts).forEach(function(id){
+      if (counts[id] === 0 && grids[id]){
+        grids[id].innerHTML = '<p class="grid-status">No products in this category yet — check back soon!</p>';
+      }
+    });
+  }
+
+  fetch(CSV_URL)
+    .then(function(res){
+      if (!res.ok) throw new Error("Sheet fetch failed: " + res.status);
+      return res.text();
+    })
+    .then(function(text){
+      var items = rowsToObjects(parseCSV(text));
+      render(items);
+    })
+    .catch(function(err){
+      console.error("Catalog load error:", err);
+      renderError("Couldn't load the latest products — please check back shortly.");
+    });
+})();
+</script>
 </body>
 </html>
